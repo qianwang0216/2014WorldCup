@@ -1,0 +1,45 @@
+a {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+a:hover {
+	COLOR: #fff; TEXT-DECORATION: underline
+}
+.fpic {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; Z-INDEX: 3; BACKGROUND: #000;  BORDER-BOTTOM-WIDTH: 0px; WIDTH: 476px; POSITION: relative; HEIGHT: 330px; BORDER-RIGHT-WIDTH: 0px;BORDER: #dddddd 1px solid;
+text-align:center
+}
+.bpic {
+	FLOAT: left; MARGIN: 0px; WIDTH: 244px; POSITION: relative; HEIGHT: 243px
+}
+#focpic0, #focpic1,#focpic2,#focpic3,#focpic4,#focpic5,#focpic6,#focpic7,#focpic8,#focpic9,#focpic10,#focpic11{
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; LEFT: 1px; BORDER-BOTTOM-WIDTH: 0px; POSITION: absolute; TOP: 1px; BORDER-RIGHT-WIDTH: 0px; 
+}
+.thubpic0,.thubpic1,.thubpic2,.thubpic3,.thubpic4,.thubpic5,.thubpic6,.thubpic7,.thubpic8,.thubpic9,.thubpic10,.thubpic11 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 4px; Z-INDEX: 20; PADDING-BOTTOM: 0px; WIDTH: 63px; CURSOR: pointer; PADDING-TOP: 4px; TOP: 10px; HEIGHT: 49px
+}
+.thubpiccur0,.thubpiccur1,.thubpiccur2,.thubpiccur3,.thubpiccur4,.thubpiccur5,.thubpiccur6,.thubpiccur7,.thubpiccur8,.thubpiccur9,.thubpiccur10,.thubpiccur11 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 4px; Z-INDEX: 20; PADDING-BOTTOM: 0px; WIDTH: 63px; CURSOR: pointer; PADDING-TOP: 4px; TOP: 10px; HEIGHT: 49px
+}
+.thubpiccur0,.thubpiccur1,.thubpiccur2,.thubpiccur3,.thubpiccur4,.thubpiccur5,.thubpiccur6,.thubpiccur7,.thubpiccur8,.thubpiccur9,.thubpiccur10,.thubpiccur11{
+	Z-INDEX: 30;
+}
+.thubpic0 IMG, .thubpic1 IMG,.thubpic2 IMG,.thubpic3 IMG,.thubpic4 IMG,.thubpic5 IMG,.thubpic6 IMG,.thubpic7 IMG,.thubpic8 IMG,.thubpic9 IMG,.thubpic10 IMG,.thubpic11 IMG {
+	BORDER-RIGHT: #666 3px solid; BORDER-TOP: #666 2px solid; BORDER-LEFT: #666 3px solid; WIDTH: 56px; BORDER-BOTTOM: #666 2px solid; HEIGHT: 42px
+}
+.thubpiccur0 IMG, .thubpiccur1 IMG,.thubpiccur2 IMG,.thubpiccur3 IMG,.thubpiccur4 IMG,.thubpiccur5 IMG,.thubpiccur6 IMG,.thubpiccur7 IMG,.thubpiccur8 IMG,.thubpiccur9 IMG,.thubpiccur10 IMG,.thubpiccur11 IMG {
+	BORDER-RIGHT: #666 3px solid; BORDER-TOP: #666 2px solid; BORDER-LEFT: #666 3px solid; WIDTH: 56px; BORDER-BOTTOM: #666 2px solid; HEIGHT: 42px
+}
+.thubpiccur0 IMG, .thubpiccur1 IMG,.thubpiccur2 IMG,.thubpiccur3 IMG,.thubpiccur4 IMG,.thubpiccur5 IMG,.thubpiccur6 IMG,.thubpiccur7 IMG,.thubpiccur8 IMG,.thubpiccur9 IMG,.thubpiccur10 IMG,.thubpiccur11 IMG {
+	BORDER-LEFT-COLOR: #fff; BORDER-BOTTOM-COLOR: #fff; BORDER-TOP-COLOR: #fff; BORDER-RIGHT-COLOR: #fff
+}
+
+.img { 
+    BORDER: 0; WIDTH: 56px; HEIGHT: 42px;
+} 
+#fttltxt0, #fttltxt1, #fttltxt2, #fttltxt3, #fttltxt4, #fttltxt5, #fttltxt6, #fttltxt7, #fttltxt8, #fttltxt9, #fttltxt10, #fttltxt11 {
+    MARGIN-TOP: 305px; FLOAT: left; WIDTH: 400px; TEXT-ALIGN: center;
+}
+
+#focpic0, #focpic1, #focpic2, #focpic3, #focpic4, #focpic5, #focpic6, #focpic7, #focpic8, #focpic9, #focpic10, #focpic11 {
+    HEIGHT: 300px;WIDTH: 400px;
+}

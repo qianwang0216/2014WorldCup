@@ -1,0 +1,31 @@
+/*
+
+    Created on : 24-May-2014, 11:35:26 AM
+    Author     : claudia reinoza
+*/
+
+.slide-food{
+        background-color:#f7b583; //#e0bbb3;
+	color: #333333;
+	//height: 700px;
+	margin: 0 auto;
+	//overflow: hidden;
+	padding: 150px 0 10px 65px;
+}
+
+#ball img{
+    width: 110px;
+    padding: 20px;
+}
+
+#rest ul li{
+list-style: none;
+text-decoration: none;
+	display:list-item;
+	margin: 140px 0 50px 10px;
+}
+
+#rest li a{
+    color:#f04124;
+}
+

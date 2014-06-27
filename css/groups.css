@@ -1,0 +1,16 @@
+/* 
+    Created on : May 25, 2014, 1:00 PM
+    Author     : Justin
+*/
+
+.slide-groups{
+  background-color:#90EE90; 
+	color: #333333;
+	margin: 0 auto;
+	padding: 150px 0 10px 65px;
+}
+.groups_title{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}

@@ -1,0 +1,503 @@
+/*
+Theme Name: Simple Parallax Website
+Description: Simple Parallax Scrolling Effect
+Author: Samuel Dalusung
+*/
+
+/*= GENERAL STYLING
+--------------------------------------------------------*/
+
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+
+        
+h1  {
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: #666666;
+  text-rendering: optimizeLegibility;
+  margin-top: 0.2rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.4; }
+
+  h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+    font-size: 60%;
+    color:#f08a24;
+    line-height: 0; }
+
+
+h2 {
+   font-family:"Arvo";
+   font-weight: normal;
+   font-size: 40px;
+   text-align: center;
+   color: #fff;
+   margin: 0;
+	padding: 0;
+}
+
+h3 {
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 1em;
+   text-align: center;
+   margin: 5px 0;
+	padding: 0;
+	z-index: 1;
+	position: relative;
+}
+
+.center { margin: 0 auto; }
+
+.content{ 
+    margin: 0 5%; 
+    //width: 50%; 
+    /* border: solid thin red; */
+    background-color: rgba(250,250,250,.6);
+    color: #3C3C3C;
+    height: auto;
+     -moz-border-radius: 10px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px; /* future proofing */
+    -khtml-border-radius: 15px; /* for old Konqueror browsers */
+    padding: 1%;
+    overflow: hidden;
+}
+.clear { clear: both; }
+
+/*= HEADER & NAVIGATION
+--------------------------------------------------------*/
+
+#header { 
+	width: 100%; 
+	background: url('../img/header-bg1.png'); 
+	height: 89px; 	
+	position: fixed;
+	/* margin-top: 30px; */
+        z-index: 5;
+}
+#header1 { 
+	width: 100%; 
+	background: url('../img/header-bg1.png'); 
+	//background: #ffe5b2;
+        height: 80px; 	
+	position: fixed;
+	/* margin-top: 30px; */
+        z-index: 10;
+}
+
+
+#nav { 
+    width: 450px;
+    float: right; 
+    //margin-top: 2%;
+//margin-right: 5%;
+    margin: 20px 10px 0 40px;
+    letter-spacing: -1px;
+}
+
+#nav1 { 
+    width: 460px;
+    //float: right; 
+    //margin-top: 10%;
+//margin-right: 5%;
+    margin: 1% 5% 0 0;
+    letter-spacing: -1px;
+}
+
+#nav1 ul{
+	list-style: none;
+	display:list-item;
+	margin: 140px 0 50px 10px;
+	list-style:none;
+        width: 72px;
+        //border: thin solid red;
+        //background-color: rgba (250 ,250 ,250 ,0.5);
+        background-color: rgba(250,250,250,.7);
+        padding: 3px 0 3px 6px;
+         -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px; /* future proofing */
+    -khtml-border-radius: 10px; /* for old Konqueror browsers */
+        
+}
+
+
+#nav1 li{
+	margin-top: 10px;	
+}
+
+#nav1 li a {  
+    opacity:1; 
+    font-size: .8em; 
+    text-decoration: none; 
+    font-family: Arial;
+    width: 10%;
+    letter-spacing: 0px;
+    color: #3C3C3C;//#2f75aa;
+}
+
+#nav1 li a.active { 
+    //color: #009245; 
+    opacity:1; 
+    //text-shadow:1px 1px rgba(0, 0, 0, .8);
+    //border-bottom: 1px solid #009245; 
+}
+
+#nav1 li a:hover { 
+    //color: #fff; 
+    opacity:1;
+    text-shadow:1px 1px rgba(0, 0, 0, .5);
+}
+
+.logo { 
+    /* color: #42881B; */ 
+    text-decoration: none; 
+    float: left; 
+    font-size: 2.5em; 
+    margin: 20px 0 0 50px; 
+    //color: #009245;
+    color: #f07e25;
+    //font-family:"Wellfleet"; 
+    font-family: 'Chewy';
+    //font-weight: bold; 
+    letter-spacing: 1.5px;
+    width: 200px;
+}
+
+.logo a { 
+    /* color: #42881B; */ 
+    text-decoration: none; 
+    float: left; 
+    font-size: 1em; 
+    margin:15px 0 0 50px; 
+    color: #f07e25; 
+    //font-family:"Wellfleet"; 
+    font-family: 'Chewy';
+    //font-weight: bold; 
+    letter-spacing: 1.5px;
+    width: 200px;
+}
+
+#nav ul{
+	list-style: none;
+	display: block;
+	margin: 0 auto;
+	list-style: none;	
+}
+
+#nav li{
+	margin-top: 10px;	
+	float: left;
+	padding-left: 7px;
+	letter-spacing: -1px;
+}
+
+#nav li a {  
+    opacity:1; 
+    font-size: 1em; 
+    text-decoration: none; 
+    font-family: Arial;
+    width: 10%;
+    letter-spacing: 0;
+    color: rgb(255, 112, 0);
+}
+
+#nav li a.active { 
+    //color: #009245; 
+    opacity:1; 
+    text-shadow:1px 1px rgba(0, 0, 0, .5);
+    //border-bottom: 1px solid #009245; 
+}
+
+#nav li a:hover { 
+    //color: #fff; 
+    opacity:1;
+    text-shadow:.5px .5px rgba(0, 0, 0, .5);
+}
+
+
+div.h1.title{
+    text-align: left;
+    text-transform:uppercase;
+    color: red;
+}
+
+
+
+/*= QUOTES AND SOME ELEMENTS
+--------------------------------------------------------*/
+.quotes {   
+ font-family: Arial, sans-serif;
+   
+ font-size: 1em;
+  
+ text-align: left;
+  
+ margin: 50px auto;
+  
+ overflow:scroll;
+  
+ padding: 2%;
+ line-height: 1.4em;
+ color: #747474;
+}
+   
+ .author_name_white { font-family:"Wellfleet";  margin: 70px 0 0 75px; color: #fff; font-size: 20px; }  
+ .author_name_gray { font-family:"Wellfleet";  margin: 70px 0 0 75px; color: #94a4a4; font-size: 20px; }  
+ 
+ .quotes_container { 
+     width: 85%; 
+     margin: 0 auto;
+//overflow: scroll; 
+ }
+ 
+#frame { 
+    background: url('../img/frame-white.png')no-repeat; 
+    width: 100%; 
+    height: 586px; 
+    margin: 0 auto;  
+    display: block; 
+    /* position: relative; */ 
+    /* top: -38px; */ 
+}
+
+#cup{
+    //background: url('../img/f.png')no-repeat; 
+    //margin: 0 auto;
+    //margin-left: 30%;
+    //margin-right: 10%;
+    
+    margin: 5% 10% 0 30%;
+    //width: 600px;
+    height: auto;
+    display: block;
+    //padding: 2%;
+}
+
+.text-float{
+    float: left;
+    margin: 10px;
+}
+
+
+/*= BUTTONS
+--------------------------------------------------------*/
+
+button.btn-know { 
+	padding: 15px 47px; 
+	margin: 40px 38.8%;
+	text-align: center;
+	border: 4px solid #fff; 
+	color: #fff; 
+	background: transparent; 
+	font-size: 19px;
+	cursor: pointer;
+	text-shadow: -1px 2px 0px rgba(90, 90, 90, 0.56);
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.btn-know:hover { background: #fff; color: transparent; }
+ul.built { list-style: none; margin: 0 auto; width: 730px; }
+.built li img{ float: left; padding-right: 34px; }
+
+
+
+/*= SLIDES STYLING
+--------------------------------------------------------*/
+
+#slide1, #slide2
+{ width: 100%; }
+
+#slide1{
+	//background:url('../img/slide1.jpg') 50% 0 no-repeat fixed;
+	background:url('../img/team_green1.jpg') 50% 0 no-repeat fixed;
+        color: #fff;
+	height: 750px;
+	margin: 0;
+	padding: 120px 0 260px 20px;
+	background-size: cover;
+}
+
+#blog-text{
+    width: 67%;
+    margin: 20px 0 0 105px;
+    font-family: 'Arial';
+    line-height: 1.3em;
+    font-size: 1.1em;
+    //color: #f07e25;
+    color: #3C3C3C; //#2f75aa;
+    text-shadow: 0.5px 0.5px rgba(250,250, 250, 0.8);
+    
+}
+
+#slide2{
+	background-color: #C8DF8D;
+	color: #333333;
+	height: 700px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 95px 0 0 65px;
+}
+
+#slide2 .content p, #slide3 .content p, #slide4 .content p, #slide5 .content, #slide6 .content p, #slide6 .content p{
+    overflow: hidden;
+    //background: red;
+}
+
+#slide3{
+	background: url(../img/slide3_a.jpg) 50% 0 no-repeat fixed;
+	color: #fff;
+	height: 700px;
+	padding: 100px 0 0 65px;	
+	background-size: cover;
+}
+
+#slide4{
+	background-color: #ECB166;
+	color: #333333;
+	height: 700px;
+	padding: 100px 0 0 65px;
+}
+
+#slide5{
+	background: url(../img/slide5.jpg) 50% 0 no-repeat fixed;
+	height: 700px;
+	margin: 0 auto;
+	padding: 100px 0 0 65px;
+	color: #fff;
+	background-size: cover;
+}
+
+#slide6{
+	background-color: #97dfd0;
+	color: #333333;
+	height: 700px;
+	padding: 100px 0 0 65px;
+}
+
+#slide7{
+	background: url(../img/stadium_orange.jpg) 50% 0 no-repeat fixed;
+	height: 700px;
+	margin: 0 auto;
+	padding: 100px 0 0 65px;
+	color: #fff;
+	background-size: cover;
+}
+
+#slide8{
+	background-color: #ffe5b2;
+	color: #333333;
+	height: 700px;
+	padding: 100px 0;
+}
+
+
+
+
+/*= FOOTER 
+--------------------------------------------------------*/
+
+#copyright  
+{ color: #747474; 
+  font-family:"Arial";  
+  font-size: 12px;
+  margin:0 0 0 40%;
+  padding: 20px 0 0 20px;
+}
+
+#copyright  a { 
+    text-decoration: none; 
+    color: #222222;  
+}
+
+#footer{
+    width: 100%; 
+    background: url('../img/footer-bg.png'); 
+    height: 85px; 	
+	//position: fixed;
+	/* margin-top: 30px; */
+    
+}
+
+//@media (max-width: 320px) {
+
+@media only screen{
+.logo { 
+    /* color: #42881B; */ 
+    text-decoration: none; 
+    float: left; 
+    font-size: 2.5em; 
+    margin: 30px 0 20px 100px; 
+    color: red; 
+    //font-family:"Wellfleet"; 
+    font-family: 'Chewy';
+    //font-weight: bold; 
+    letter-spacing: 1.5px;
+}
+
+#nav { 
+    width: 320px; 
+    float: right; 
+    //margin-top: 2%;
+//margin-right: 5%;
+    margin: 20% 5% 0 0;
+    letter-spacing: -1px;
+}
+}
+/*= SLIDES STYLING
+--------------------------------------------------------*/
+
+/*#slide1, #slide2
+{ width: 100%; }
+
+#slide1{
+	//background:url('../img/slide1.jpg') 50% 0 no-repeat fixed;
+	background:url('../img/team_green1.jpg') 50% 0 no-repeat fixed;
+        color: #fff;
+	height: 200px;
+	margin: 0;
+	padding: 50px 0 40px 0;
+	background-size: cover;
+}
+
+#slide2{
+	background-color: #C8DF8D;
+	color: #333333;
+	height: 200px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 100px 0;
+}
+
+#slide3{
+	background: url(../img/slide3_b.jpg) 50% 0 no-repeat fixed;
+	color: #fff;
+	height: 700px;
+	padding: 100px 0 0 0;	
+	background-size: cover;
+}
+
+#slide4{
+	background-color: #ECB166;
+	color: #333333;
+	height: 700px;
+	padding: 100px 0;
+}
+
+#slide5{
+	background: url(../img/slide5.jpg) 50% 0 no-repeat fixed;
+	height: 700px;
+	margin: 0 auto;
+	padding: 100px 0;
+	color: #fff;
+	background-size: cover;
+}
+
+}*/

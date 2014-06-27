@@ -1,0 +1,31 @@
+.jie{
+    position: relative;
+}
+
+.jie ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    z-index: 1;
+}
+
+.jie li{
+   position: absolute;
+   top: 0;
+   left:0;
+   z-index: 1;
+      
+}
+
+.jie li.current, .jie li.previous{
+   z-index: 10000;
+      
+}
+
+.jie-previous, .jie-next{
+    position: relative;
+    z-index: 1000;
+}
+
+
+
